@@ -79,6 +79,8 @@ namespace Cheetah3.WebApplication.Models
         [Display(Name = "Подтверждение пароля")]
         [Compare("Password", ErrorMessage = "Пароль и его подтверждение не совпадают.")]
         public string ConfirmPassword { get; set; }
+
+        public string Position { get; set; }
     }
 
     public class ResetPasswordViewModel

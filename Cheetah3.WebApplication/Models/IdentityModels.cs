@@ -11,7 +11,7 @@ namespace Cheetah3.WebApplication.Models
     {
         public string Position { get; set; }
 
-        public int? Level { get; set; }
+        public int Level { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
